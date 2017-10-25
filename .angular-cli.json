@@ -20,8 +20,12 @@
       "prefix": "app",
       "styles": [
         "styles.css"
+      ],      
+      "scripts": [
+        "./libs/amcharts/amcharts.js",
+        "./libs/amcharts/serial.js",
+        "./libs/amcharts/themes/dark.js"
       ],
-      "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
