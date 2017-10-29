@@ -11,7 +11,7 @@ export abstract class SocketService {
 
   constructor(url: string) {
     if (!SocketService.socketInstance) {
-      // SocketService.socketInstance = new WebSocket(url);
+      SocketService.socketInstance = new WebSocket(url);
     };
   }
 
