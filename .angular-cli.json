@@ -8,7 +8,7 @@
       "root": "src",
       "outDir": "dist",
       "assets": [
-        "assets",
+        { "glob": "**/*", "input": "./assets/", "output": "./assets/" },
         "favicon.ico"
       ],
       "index": "index.html",
@@ -20,11 +20,6 @@
       "prefix": "app",
       "styles": [
         "styles.css"
-      ],      
-      "scripts": [
-        "./libs/amcharts/amcharts.js",
-        "./libs/amcharts/serial.js",
-        "./libs/amcharts/themes/dark.js"
       ],
       "environmentSource": "environments/environment.ts",
       "environments": {
